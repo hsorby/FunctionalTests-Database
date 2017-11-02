@@ -10,7 +10,7 @@ set(TEST_MULTI_PROCESS TRUE)
 set(TEST_NP 4)
 
 set(PYTEST_TARGETS src/python/Monodomain2DSquare.py)
-set(PYTEST_TARGETS_ARGS "0.001;0.1;1;src/python/n98.xml")
+set(PYTEST_TARGETS_ARGS "src/python/n98.xml")
 set(PYTEST_EXPECTED_RESULTS src/python/exptected_results)
 
 set(PYTEST_MULTI_PROCESS TRUE)
